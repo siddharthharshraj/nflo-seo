@@ -57,7 +57,7 @@ Host: https://nationalfinanceolympiad.safefintech.in
 
 ---
 
-## 3. Meta Tags & Schema (Put inside `<head>` on every page)
+## 3. Meta Tags & Schema (Put this as a first thing inside `<head>` on every page)
 
 ```html
 <title>National Financial Literacy Olympiad 2025 | Register Now | SAFEFINTECH</title>
@@ -86,8 +86,8 @@ Host: https://nationalfinanceolympiad.safefintech.in
   "@context": "https://schema.org",
   "@type": "EducationEvent",
   "name": "National Financial Literacy Olympiad 2025",
-  "startDate": "2025-09-01",
-  "endDate": "2025-12-31",
+  "startDate": "2025-09-05",
+  "endDate": "2025-09-20",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
   "location": {
@@ -107,110 +107,12 @@ Host: https://nationalfinanceolympiad.safefintech.in
 
 ---
 
-## 4. Analytics & Pixel Scripts (before `</head>`) [LATER I WILL PROVIDE]
+## 8. CheckList for developer ( Mr. Amit )
 
-```html
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
-</script>
+- Ensure every link has been put up correctly.
+- <meta property="og:image" content="https://nationalfinanceolympiad.safefintech.in/assets/nflo-2025-poster.png" /> [UPLOAD THE NFLO POSTER WHICH I HAVE SENT TO YOUR EMAIL ID under assets folder] . Ensure every meta tag with og:image have correct link
+- 
 
-<!-- Meta Pixel -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', 'YOUR_PIXEL_ID');
-fbq('track', 'PageView');
-</script>
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
-</noscript>
-
-<!-- Google Ads -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-XXXXXXXXX');
-</script>
-
-<!-- Twitter Pixel -->
-<script>
-!function(e,t,n,s,u,a){
-e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))
-}(window,document,'script');
-twq('init','YOUR_TWITTER_PIXEL_ID');
-twq('track','PageView');
-</script>
-```
-
----
-
-## 5. Share Buttons (Put where you want virality/referral)
-
-```html
-<!-- WhatsApp Referral -->
-<a href="https://wa.me/?text=Register%20for%20NFLO%202025%20now%3A%20https%3A%2F%2Fnationalfinanceolympiad.safefintech.in%2F" target="_blank">
-  <img src="/assets/whatsapp-share.png" alt="Share on WhatsApp">
-</a>
-
-<!-- Telegram Share -->
-<a href="https://t.me/share/url?url=https://nationalfinanceolympiad.safefintech.in/&text=NFLO%202025%20Registrations%20Open%21" target="_blank">
-  <img src="/assets/telegram-share.png" alt="Share on Telegram">
-</a>
-
-<!-- Facebook Share -->
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://nationalfinanceolympiad.safefintech.in/" target="_blank">
-  <img src="/assets/facebook-share.png" alt="Share on Facebook">
-</a>
-```
-
----
-
-## 6. Sticky Registration Bar (Paste before `</body>` of main landing/registration pages)
-
-```html
-<div style="position:fixed;bottom:0;width:100%;background:#F8C400;color:#000;text-align:center;z-index:9999;padding:10px;">
-  <strong>NFLO 2025 Registrations Now Open! <a href="/register" style="color:#0B5ED7;text-decoration:underline;">Register Now</a></strong>
-</div>
-```
-
----
-
-## 7. UTM Sample Campaign Links (track in Google Analytics/Ads)
-
-```
-https://nationalfinanceolympiad.safefintech.in/register?utm_source=google&utm_medium=cpc&utm_campaign=nflo2025
-https://nationalfinanceolympiad.safefintech.in/register?utm_source=facebook&utm_medium=meta_ad&utm_campaign=nflo2025
-https://nationalfinanceolympiad.safefintech.in/register?utm_source=youtube&utm_medium=video&utm_campaign=nflo2025
-```
-
----
-
-## 8. CheckList
-
-- Submit sitemap in Google Search Console & Bing Webmaster Tools before campaign launch.
-- Use Google Tag Manager for pixel/analytics scripts for faster deployment.
-- Validate all share links on WhatsApp, Facebook, Twitter, Telegram.
-- Add OpenGraph, Twitter, and JSON-LD schema to every main page.
-- Use sticky CTA on all main registration and landing pages.
-- Use UTM links for every paid campaign to track performance granularly.
-- Review Google Search Console weekly for crawl/index errors.
-- Make share/virality part of every email, SMS, and landing page CTA.
 
 ---
 
