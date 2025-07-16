@@ -4,41 +4,11 @@
 ## 1. sitemap.xml
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/about</loc>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/register</loc>
-    <priority>1.0</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/faq</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/results</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://nationalfinanceolympiad.safefintech.in/contact</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-</urlset>
+<url>
+  <loc>https://nationalfinanceolympiad.safefintech.in/</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+</url>
 ```
 
 ---
