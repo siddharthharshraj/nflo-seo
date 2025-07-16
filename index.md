@@ -1,7 +1,7 @@
 # NFLO 2025 SEO & Digital Campaign Assets
 
 
-## 1. sitemap.xml
+## 1. sitemap.xml (IT IS SPA) so only one tag.
 
 ```xml
 <url>
